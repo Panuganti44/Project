@@ -7,7 +7,7 @@ region = 'ap-south-1'
 ami_id = 'ami-12345678'
 
 # Specify the instance type (e.g., t2.micro, m5.large, etc.).
-instance_type = 't2.medium'
+instance_type = 't2.micro'
 
 # Specify the key pair name you want to use to connect to the instance.
 key_name = 'your_key_pair_name'
