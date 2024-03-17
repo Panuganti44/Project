@@ -1,13 +1,16 @@
 import boto3
 
 # Specify the region to launch the instance. Change this to your desired region.
-region = 'ap-south-1'
+region = 'us-east-2'
+
 
 # Specify the AMI ID of the instance you want to launch.
 ami_id = 'ami-12345678'
 
 # Specify the instance type (e.g., t2.micro, m5.large, etc.).
-instance_type = 't2.micro'
+
+instance_type = 'm5.2xlarge'
+
 
 # Specify the key pair name you want to use to connect to the instance.
 key_name = 'your_key_pair_name'
