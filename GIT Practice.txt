@@ -1,7 +1,7 @@
 import boto3
 
 # Specify the region to launch the instance. Change this to your desired region.
-region = 'us-west-2'
+region = 'ap-south-1'
 
 # Specify the AMI ID of the instance you want to launch.
 ami_id = 'ami-12345678'
